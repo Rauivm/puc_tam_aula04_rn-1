@@ -1,3 +1,5 @@
 export const max = (a: number, b: number): number => {
-  return a;
+  if(a>b)
+    return a;
+  return b;
 };
